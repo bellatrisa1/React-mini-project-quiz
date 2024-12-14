@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+![Снимок экрана 2024-12-14 в 18 31 02](https://github.com/user-attachments/assets/0d0d1024-d2a8-41ae-a004-841aff57f665)Quiz App - это небольшое React-приложение для викторины, позволяющее пользователям отвечать на вопросы и получать результаты.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Основной функционал
 
-## Available Scripts
+- Викторина с несколькими вопросами.
+- Каждый вопрос имеет варианты ответов, один из которых правильный.
+- Отображение прогресса прохождения теста.
+- Подведение итогов с отображением количества правильных ответов.
+- Возможность начать викторину заново.
 
-In the project directory, you can run:
+2. Используемые технологии
 
-### `npm start`
+- React — библиотека для создания пользовательских интерфейсов.
+- React Hooks — для управления состоянием (useState).
+- SASS — для стилизации компонентов.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. Как запустить проект?
+- Убедитесь, что у вас установлен Node.js.
+- Клонируйте репозиторий: git clone https://github.com/bellatrisa1/React-mini-project-quiz.git
+- Перейдите в директорию проекта: cd quiz-app
+- Установите зависимости: npm install
+- Запустите проект: npm start
+- Откройте в браузере: http://localhost:3000.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. Структура проекта
+- src/App.js — основной компонент приложения.
+- Result — компонент для отображения результата викторины.
+- Game — компонент, отвечающий за отображение текущего вопроса и вариантов ответов.
+- index.scss — стилизация приложения.
 
-### `npm test`
+5. Пример вопросов
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Что такое React?
+- Компонент - это ...
+- Что такое JSX?
+- Что такое Virtual DOM?
+- Что делает useState в React?
+- Что такое props в React?
 
-### `npm run build`
+6. Скриншоты
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- ![Снимок экрана 2024-12-14 в 18 31 02](https://github.com/user-attachments/assets/c7df9091-19c3-49f4-b1c1-a6600146352a)
+- ![Снимок экрана 2024-12-14 в 18 34 53](https://github.com/user-attachments/assets/2b2e2eb7-439f-44da-9f25-207d2edaee8a)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
