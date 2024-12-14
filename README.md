@@ -17,7 +17,6 @@ Quiz App - это небольшое React-приложение для викт�
 3. Как запустить проект?
 - Убедитесь, что у вас установлен Node.js.
 - Клонируйте репозиторий: git clone https://github.com/bellatrisa1/React-mini-project-quiz.git
-- Перейдите в директорию проекта: cd quiz-app
 - Установите зависимости: npm install
 - Запустите проект: npm start
 - Откройте в браузере: http://localhost:3000.
